@@ -35,7 +35,7 @@ module.exports = async (req, res) => {
     const allowedOrigins = [
   	'https://luxynth.cn',
  	'http://101.37.162.122',   // 注意，如果你的IP是http，这里也需要用http
-	'http://localhost:4000'  // 方便本地开发测试
+	'http://127.0.0.1:4000'  // 方便本地开发测试
 ];
 
     const origin = req.headers.origin;
